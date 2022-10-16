@@ -1,0 +1,42 @@
+body {
+    background: url(../images/background_mystic.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+p, h3, h5 {
+  color: white;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  font-weight: 700;
+}
+
+  .bg-navbar {
+    background: url("../images/navbar_bg.jpg") no-repeat;
+    mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
+    background-size: cover;
+    overflow: hidden;
+ 
+  }
+
+  .bg-footer {
+    background: url(../images/navbar_bg.jpg) no-repeat center bottom;
+    background-size: cover;
+
+    width: 100%;
+    overflow: hidden;
+  }
+  .bg-col {
+    background: url(../images/card_bg.jpg);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .navbar-toggler-icon{
+    background-color: white;
+    opacity: 1;
+    border-radius: 5px;
+}
+  .carousel img {
+    width:100vw;
+    height:75vh;
+    object-fit: cover;
+  }
